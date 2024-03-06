@@ -2,7 +2,7 @@ import gradio as gr
 from langchain.prompts import PromptTemplate
 import os
 from langchain_openai import ChatOpenAI
-openai_api_key = "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"
+openai_api_key = "*"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 # Mendefinisikan model AI
 llm = ChatOpenAI(
