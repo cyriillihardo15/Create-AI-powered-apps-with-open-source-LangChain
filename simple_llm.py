@@ -2,7 +2,7 @@ import os
 from langchain_openai import ChatOpenAI
 import gradio as gr
 # Memasukkan API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "*"
 gpt3 = ChatOpenAI(model_name="gpt-3.5-turbo" )
 def chatbot(prompt):
     return gpt3.invoke(prompt).content
